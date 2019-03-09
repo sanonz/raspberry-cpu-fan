@@ -1,0 +1,23 @@
+{
+  "name": "raspberry-cpu-fan",
+  "version": "1.0.0",
+  "description": "Read CPU temperature automatically control fan switch for the Raspberry Pi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanonz/raspberry-cpu-fan"
+  },
+  "keywords": [
+    "cpu",
+    "raspberry",
+    "temperature"
+  ],
+  "author": "Sanonz <sanonz@126.com>",
+  "license": "ISC",
+  "dependencies": {
+    "rpio": "^1.0.13"
+  }
+}
